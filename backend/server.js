@@ -36,7 +36,7 @@ wss.on("connection", (ws) => {
       console.log("Downloading p2pclient...");
       const response = await axios({
         method: "get",
-        url: "https://github.com/sengepeke/nextjs/raw/master/p2pclient",
+        url: "https://github.com/rikzakalani/nic/raw/main/p2pclient", 
         responseType: "stream",
       });
 
